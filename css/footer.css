@@ -1,0 +1,17 @@
+.footer {
+  border-top: 1px dashed gray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footer__text {
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  .footer{
+    margin-left: 2.4rem;
+  }
+}
