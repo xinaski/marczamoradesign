@@ -67,7 +67,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
   /* font-family: 'Libre Franklin', sans-serif; */
-
+  width: 100%;
 }
 .title-section {
   color: black;
@@ -86,4 +86,24 @@ body {
   height: 2px;
   background-color: black;
   margin-bottom: 5rem;
+}
+
+@media (max-width: 575.98px) {
+  
+  p {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .title-section__divider {
+    margin-bottom: 2rem;
+  }
+
+  .about {
+    background: none;
+    padding-left: 3rem;
+  }
+
 }

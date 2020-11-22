@@ -18,6 +18,25 @@
 
 @media (max-width: 575.98px) {
   .customer {
-    padding-left: 4rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+  .customer .customer__item {
+    margin-bottom: 0.5rem;
+  }
+  .customer .customer__title {
+    font-size: 0.9rem;
+  }
+  .customer .customer__date {
+    padding-top: 2px;
+    font-size: 0.8rem;
+  }
+  .customer .customer__text {
+    margin-bottom: 0.25rem;
+  }
+  .customer .customer__link {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
   }
 }
